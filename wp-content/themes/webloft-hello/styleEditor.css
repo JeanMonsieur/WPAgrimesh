@@ -1,0 +1,18 @@
+
+h1, h2, h3, h4, h5, h6 {font-weight: 300; font-family: Verdena,arial,sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333333;
+    font-weight: 300;
+    line-height: 1.25;
+}
+h1 {font-size: 24px;}
+h2 {font-size: 20px;}
+h3 { font-size: 18px} 
+
+p  { border: solid 1px #ccc; padding:5px; }
+ul,ol  { border: solid 1px green; }
+div  { border: solid 1px blue; padding:5px}
+
+.custom_rouge { }
+.custom_box{  }

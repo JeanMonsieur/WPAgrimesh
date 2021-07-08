@@ -1,0 +1,821 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 03:56:40
+* VERSION: 1.4.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.29                                |7.3.21
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2021-07-08 15:30:37
+WP VERSION__________: 5.4.6
+DUP VERSION_________: 1.4.2
+DB__________________: 5.5.68
+DB TABLES___________: 46
+DB ROWS_____________: 9,248
+DB FILE SIZE________: 19.47MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.3.21 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) PHP/7.3.21
+DOC ROOT____________: "C:/wamp64/www/Agrimesh"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/Agrimesh/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/Agrimesh/20210708_agrimesh_[HASH]_20210708153037_archive.zip"
+SIZE________________: 63.34MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/Agrimesh/20210708_agrimesh_[HASH]_20210708153037_archive.zip"
+SIZE________________: 63.34MBFile timestamp set to Current: 2021-07-08 15:57:04
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 03:57:05 - RUNTIME: 24.9118 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'Jean-Philippe'@'localhost' (using password: YES) [CODE:2|FILE:C:\wamp64\www\Agrimesh\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'Jean-Philippe'@'localhost' (using password: YES)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 03:59:29
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.31 -- Build Server: 5.5.68
+FILE SIZE:	dup-database__[HASH].sql (10.63MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/Agrimesh/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	418
+
+jfr_commentmeta: (0)
+jfr_comments: (0)
+jfr_duplicator_packages: (0)
+jfr_icl_content_status: (0)
+jfr_icl_core_status: (0)
+jfr_icl_flags: (64)
+jfr_icl_languages: (64)
+jfr_icl_languages_translations: (4096)
+jfr_icl_locale_map: (2)
+jfr_icl_message_status: (0)
+jfr_icl_mo_files_domains: (25)
+jfr_icl_node: (0)
+jfr_icl_reminders: (0)
+jfr_icl_string_packages: (12)
+jfr_icl_string_pages: (0)
+jfr_icl_string_positions: (0)
+jfr_icl_string_status: (0)
+jfr_icl_string_translations: (18)
+jfr_icl_string_urls: (0)
+jfr_icl_strings: (315)
+jfr_icl_translate: (275)
+jfr_icl_translate_job: (10)
+jfr_icl_translation_batches: (3)
+jfr_icl_translation_downloads: (0)
+jfr_icl_translation_status: (84)
+jfr_icl_translations: (218)
+jfr_links: (0)
+jfr_options: (292)
+jfr_postmeta: (3899)
+jfr_posts: (574)
+jfr_redirection_404: (0)
+jfr_redirection_groups: (2)
+jfr_redirection_items: (17)
+jfr_redirection_logs: (0)
+jfr_term_relationships: (37)
+jfr_term_taxonomy: (13)
+jfr_termmeta: (1)
+jfr_terms: (13)
+jfr_usermeta: (278)
+jfr_users: (7)
+jfr_yoast_indexable: (61)
+jfr_yoast_indexable_hierarchy: (8)
+jfr_yoast_migrations: (11)
+jfr_yoast_primary_term: (0)
+jfr_yoast_seo_links: (19)
+jfr_yoast_seo_meta: (112)
+Removed '27' cache/transient rows
+
+INSERT DATA RUNTIME: 1.9951 sec.
+STEP-2 COMPLETE @ 03:59:31 - RUNTIME: 2.0252 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 03:59:50
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Agrimesh"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/vhosts/agrimesh.net/httpdocs"
+path_new______________: "C:/wamp64/www/Agrimesh"
+siteurl_______________: "http://localhost/Agrimesh"
+url_old_______________: "https://www.agrimesh.net"
+url_new_______________: "http://localhost/Agrimesh"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "jfr_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_comments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_content_status"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_core_status"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_flags"___________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_languages"_______________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_languages_translations"__________________[ROWS:  4096][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_locale_map"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_message_status"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_mo_files_domains"________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_node"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_reminders"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_string_packages"_________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_string_pages"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_string_positions"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_string_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_string_translations"_____________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_string_urls"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_strings"_________________________________[ROWS:   315][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_translate"_______________________________[ROWS:   275][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_translate_job"___________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_translation_batches"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_translation_downloads"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_icl_translation_status"______________________[ROWS:    84][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_icl_translations"____________________________[ROWS:   218][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_options"_____________________________________[ROWS:   292][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_postmeta"____________________________________[ROWS:  3899][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_posts"_______________________________________[ROWS:   574][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_redirection_404"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_redirection_groups"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_redirection_items"___________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_redirection_logs"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_term_relationships"__________________________[ROWS:    37][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_term_taxonomy"_______________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_termmeta"____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_terms"_______________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_usermeta"____________________________________[ROWS:   278][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_users"_______________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_yoast_indexable"_____________________________[ROWS:    61][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_yoast_indexable_hierarchy"___________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_yoast_migrations"____________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_yoast_primary_term"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "jfr_yoast_seo_links"_____________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+
+EVALUATE TABLE: "jfr_yoast_seo_meta"______________________________[ROWS:   112][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/agrimesh.net/httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  2:"\/var\/www\/vhosts\/agrimesh.net\/httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fagrimesh.net%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  4:"\var\www\vhosts\agrimesh.net\httpdocs" ===========> "C:/wamp64/www/Agrimesh"
+	SEARCH  5:"\\var\\www\\vhosts\\agrimesh.net\\httpdocs" ======> "C:\/wamp64\/www\/Agrimesh"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cagrimesh.net%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2FAgrimesh"
+	SEARCH  7:"//www.agrimesh.net" ==============================> "//localhost/Agrimesh"
+	SEARCH  8:"\/\/www.agrimesh.net" ============================> "\/\/localhost\/Agrimesh"
+	SEARCH  9:"%2F%2Fwww.agrimesh.net" ==========================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 10:"//agrimesh.net" ==================================> "//localhost/Agrimesh"
+	SEARCH 11:"\/\/agrimesh.net" ================================> "\/\/localhost\/Agrimesh"
+	SEARCH 12:"%2F%2Fagrimesh.net" ==============================> "%2F%2Flocalhost%2FAgrimesh"
+	SEARCH 13:"https://localhost/Agrimesh" ======================> "http://localhost/Agrimesh"
+	SEARCH 14:"https:\/\/localhost\/Agrimesh" ===================> "http:\/\/localhost\/Agrimesh"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FAgrimesh" ==============> "http%3A%2F%2Flocalhost%2FAgrimesh"
+--------------------------------------
+SCANNED:	Tables:46 	|	 Rows:10530 	|	 Cells:63218 
+UPDATED:	Tables:8 	|	 Rows:215 	|	 Cells:327 
+ERRORS:		0 
+RUNTIME:	0.977300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:59:51 - RUNTIME: 1.1088 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================

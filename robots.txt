@@ -1,0 +1,26 @@
+User-agent: *
+Disallow: /*?
+Disallow: /wp-login.php
+Disallow: /wp-admin
+Disallow: /wp-includes
+Allow: /wp-content*.css*
+Allow: /wp-content*.js*
+Allow: /wp-includes*.css*
+Allow: /wp-includes*.js*
+Disallow: /wp-content
+Allow: /wp-content/uploads
+Disallow: */trackback
+Disallow: /*/feed/
+Disallow: /*/comments
+Disallow: /cgi-bin
+Disallow: /*.php$
+Disallow: /*.inc$
+Disallow: /*.gz
+Disallow: /*.cgi
+Disallow: /*trackback*
+
+User-agent: Googlebot-Image
+Disallow:
+
+User-agent: Mediapartners-Google
+Disallow:
